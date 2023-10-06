@@ -1,13 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 #main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 
 #github-container {
   display: flex;
+  justify-content: center;
 }
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+ul li a {
+  font-size: 18px;
 }
